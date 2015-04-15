@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <color name="textss">#856321</color>
+    <color name="green_a">#1abc9c</color>
+    <color name="green_b">#16a085</color>
+    <color name="green_c">#2ecc71</color>
+    <color name="green_d">#27ae60</color>
+    <color name="bule_a">#3498db</color>
+    <color name="bule_b">#2980b9</color>
+    <color name="yellow_a">#f1c40f</color>
+    <color name="yellow_b">#f39c12</color>
+    <color name="yellow_c">#e67e22</color>
+    <color name="yellow_d">#d35400</color>
+    <color name="red_a">#e74c3c</color>
+    <color name="red_b">#c0392b</color>
+    <color name="gray_a">#ecf0f1</color>
+    <color name="gray_b">#bdc3c7</color>
+    <color name="gray_c">#95a5a6</color>
+    <color name="gray_d">#7f8c8d</color>
+    <color name="purple_a">#9b59b6</color>
+	<color name="purple_b">#8e44ad</color>
+	<color name="rippelColor">#424242</color>
+</resources>

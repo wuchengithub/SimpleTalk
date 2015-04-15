@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_a" >
+
+    <com.wookii.view.RippleBackground
+        android:id="@+id/reipp_b"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <com.wookii.view.HollowRoundView
+        android:id="@+id/welcome_loding_view"
+        android:layout_width="30.0dp"
+        android:layout_height="30.0dp"
+        android:layout_centerInParent="true"
+        />
+
+    <TextView
+        android:id="@+id/welcome_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:alpha="0"
+        android:text="@string/welcome"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+        android:textColor="@color/rippelColor" />
+
+    <RelativeLayout android:id="@+id/welcome_line_zone" 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/welcome_text_line1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="70.0dp"
+            android:text="沟通"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textColor="#ffffff"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/welcome_text_line2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/welcome_text_line1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="70.0dp"
+            android:text="快速地 有效地"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textColor="#ffffff"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/welcome_text_line3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/welcome_text_line2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="70.0dp"
+            android:text="简单 不繁复"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textColor="#ffffff"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/welcome_text_line4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/welcome_text_line3"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="70.0dp"
+            android:text="亲和"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textColor="#ffffff"
+            android:visibility="invisible" />
+    </RelativeLayout>
+
+</RelativeLayout>

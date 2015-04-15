@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_a" >
+
+    <com.wookii.widget.CircleImageView
+        android:id="@+id/login_user_icon"
+        android:layout_width="90.0dip"
+        android:layout_height="90.0dip"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70.0dp"
+        android:src="@drawable/user_icon"
+        app:w_border_color="@color/gray_b"
+        app:w_border_width="5dp" />
+
+    <EditText
+        android:id="@+id/login_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/login_person_name"
+        android:layout_below="@+id/login_person_name"
+        android:layout_marginTop="24dp"
+        android:ems="10"
+        android:hint="@string/password"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/login_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/login_password"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="42dp"
+        android:background="@color/bule_a"
+        android:text="@string/login"
+        android:textColor="@android:color/white" />
+
+    <EditText
+        android:id="@+id/login_person_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/login_user_icon"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="83dp"
+        android:ems="10"
+        android:hint="用户名"
+        android:inputType="textPersonName" />
+
+</RelativeLayout>
